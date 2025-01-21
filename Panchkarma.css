@@ -242,5 +242,9 @@ html, body {
     color: #f28b82;
     text-decoration: none;
 }
-
+a:-webkit-any-link {
+    color: #474134;
+    cursor: pointer;
+    text-decoration: none;
+}
 
