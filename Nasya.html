@@ -1,0 +1,634 @@
+<html>
+ <head>
+  <title>
+   Nasya Treatment
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+             font-family: 'Roboto', sans-serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f5f5f5;
+         }
+         .container {
+             display: flex;
+             flex-wrap: wrap;
+             padding: 20px;
+         }
+         .content {
+             flex: 1;
+             min-width: 1000px;
+             max-width: 800px;
+             padding: 20px;
+             background-color: #fff;
+             margin-right: 20px;
+         }
+         .sidebar {
+             width: 350px;
+             min-width: 300px;
+             background-color: #007b7f;
+             color: #fff;
+             padding: 20px;
+         }
+         h1 {
+             font-size: 24px;
+             color: #333;
+         }
+         p {
+             font-size: 16px;
+             color: #666;
+             line-height: 1.6;
+         }
+         ul {
+             list-style-type: disc;
+             padding-left: 20px;
+         }
+         ul li {
+             margin-bottom: 10px;
+         }
+         .sidebar h2 {
+             font-size: 20px;
+             margin-bottom: 20px;
+         }
+         .sidebar ul {
+             list-style-type: none;
+             padding: 0;
+         }
+         .sidebar ul li {
+             margin-bottom: 10px;
+         }
+         .sidebar ul li a {
+             color: #fff;
+             text-decoration: none;
+             display: block;
+             padding: 10px;
+             background-color: #009688;
+             border-radius: 5px;
+         }
+         .sidebar ul li a:hover {
+             background-color: #00796b;
+         }
+         .sidebar .contact-box {
+             background-color: #fff;
+             color: #333;
+             padding: 20px;
+             margin-top: 20px;
+             text-align: center;
+         }
+         .sidebar .contact-box img {
+             max-width: 100%;
+             border-radius: 5px;
+         }
+         .sidebar .social-icons {
+             display: flex;
+             justify-content: center;
+             margin-top: 20px;
+         }
+         .sidebar .social-icons a {
+             color: #fff;
+             margin: 0 10px;
+             font-size: 20px;
+         }
+         .image-container {
+             text-align: center;
+             margin: 20px 0;
+         }
+         .image-container img {
+             max-width: 100%;
+             border-radius: 5px;
+         }
+ 
+       
+         #page_1 {
+     height: 100%;
+     width: 100%;
+     background: url(./IMG_1.jpeg) no-repeat center center fixed;
+     background-size: cover;
+ }
+ 
+ .header {
+     height: 80px;
+     background-color:white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed; 
+     left: 0;
+     right: 0;
+     z-index: 1;
+ }
+ 
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .logo img {
+     height: 100px;
+      
+ }
+ 
+ .nav {
+     display: flex;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     top: 10px;
+ }
+ 
+ .nav li {
+     margin-right: 20px;
+ }
+ 
+ .nav a {
+     text-decoration: none;
+     font-size: 24px;
+     color: #060606;
+     padding: 10px 15px;
+     transition: background-color 0.3s, transform 0.3s;
+     border-radius: 5px;
+     font-weight: 500;
+     position: relative;
+ }
+ 
+ .nav a:hover {
+     background-color: green;
+     transform: scale(1.1);
+ }
+ 
+ .nav a.active {
+     background-color: #007BFF;
+     color: #fff;
+     transform: scale(1.1);
+ }
+ 
+ .hero {
+    position: relative;
+    top: 150PX;
+    
+     padding: 100px 0;
+     color: #121111;
+     text-align: center;
+ }
+ 
+ 
+ 
+ .hero h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .hero p {
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ 
+ .hero img {
+     width: 100%;
+     height: 500px;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+ 
+ .hero .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ .hero .container h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .hero .container p {
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ 
+ 
+ 
+ #page_7{
+     height: 50%;
+     width: 100%;
+     background-color: rgb(62, 195, 200);
+     
+ }
+ 
+ .container_7 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 20px;
+ }
+ .section_7{
+     flex: 1;
+     min-width: 250px;
+     margin: 10px;
+ }
+ .section_7 img {
+     max-width: 100%;
+     height: auto;
+ }
+ .section_7 h2 {
+     background-color: #f28b82;
+     color: #ffffff;
+     padding: 10px;
+     margin: 0 0 10px 0;
+ }
+ .section_7 p, .section_7 ul, .section_7 li {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ .section_7 ul {
+     padding-left: 20px;
+ }
+ .section_7 ul li {
+     margin: 5px 0;
+ }
+ .section_7 ul li i {
+     margin-right: 10px;
+ }
+ .social-icons_7 {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+ }
+ .social-icons_7 a {
+     color: #0d0d0d;
+     margin: 0 5px;
+     font-size: 20px;
+ }
+ .footer_7 {
+     text-align: center;
+     padding: 10px;
+     background-color: #003333;
+     color: #ffffff;
+ }
+ .footer_7 a {
+     color: #f28b82;
+     text-decoration: none;
+ }
+ 
+   </style>
+ </head>
+ <body>
+
+    <div id="page_1">
+        <div class="page_1">
+                 
+                <div class="header">
+                    <div class="logo">
+                        <img src="./Untitled_design-removebg-preview.png" alt="Logo">
+                         
+                    </div>
+                    
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="#page_1">Home</a></li>
+                            <li><a href="Aboutus.html">About</a></li>
+                            <li><a href="Panchkarma.HTML">Panchkarma termtments</a></li>
+                            <li><a href="BLOG.HTML">Blog</a></li>
+                            <li><a href="#page_7">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hero">
+                    <div class="container">
+                        <h1>Welcome to Viswanath Ayurveda Clinic</h1>
+                        <p> your trusted destination for holistic healing, natural wellness, and a healthier, balanced life."</p>
+                     
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+  <div class="container">
+   <div class="content">
+    <h1>
+     Nasya Treatment
+    </h1>
+    <p>
+     Nasya is a therapeutic procedure in Ayurveda, a traditional system of medicine originating from India. It involves the administration of herbal oils, powders, or liquids through the nasal passages. Nasya is believed to have various benefits for both physical and mental well-being. It's important to note that before undertaking any Ayurvedic procedure, you should consult a qualified Ayurvedic practitioner to ensure that it's suitable for your individual constitution and health condition.
+    </p>
+    <div class="images">
+     <img alt="Person receiving Nasya treatment with herbal oils" height="200" src="https://storage.googleapis.com/a1aa/image/pHPl701jafVZcatgpgrYoVkSCLIb6VSVFfvVMxP9ODYQkGfnA.jpg" width="300"/>
+     <img alt="Ayurvedic practitioner administering Nasya treatment" height="200" src="https://storage.googleapis.com/a1aa/image/88jQiLKsATIaEd0YOjEuIjJLqCRJu084svcABAaqQkQEpxfJA.jpg" width="300"/>
+    </div>
+    <p>
+     Here's a general overview of the Nasya Ayurvedic process:
+    </p>
+    <h2>
+     1. Preparation
+    </h2>
+    <p>
+     Before starting the Nasya procedure, the Ayurvedic practitioner will assess your constitution (Prakriti) and your current health condition. This helps determine the appropriate type of Nasya and the substances to be used.
+    </p>
+    <h2>
+     2. Preparation of Nasya Substance:
+    </h2>
+    <p>
+     The Nasya substance can be an herbal oil, ghee (clarified butter), decoctions, medicated powders, or herbal juices. The selection of the substance depends on the individual's dosha (body constitution) imbalance and the intended therapeutic effect.
+    </p>
+    <h2>
+     3. Administration:
+    </h2>
+    <p>
+     The Nasya procedure is typically performed in a specific manner:
+    </p>
+    <ul>
+     <li>
+      The person lies down with the head tilted slightly backward.
+     </li>
+     <li>
+      A few drops or a specific quantity of the Nasya substance is administered into each nostril using a dropper or other suitable applicator.
+     </li>
+     <li>
+      The person is advised to inhale gently, allowing the substance to reach deeper nasal passages.
+     </li>
+     <li>
+      After the administration, the person might be asked to massage the area around the nose and forehead to help spread the substance.
+     </li>
+    </ul>
+    <h2>
+     4. Post-Procedure Care:
+    </h2>
+    <p>
+     After Nasya, it is recommended to avoid exposure to cold wind, excessive talking, and heavy physical activities for a certain period of time to allow the substances to be absorbed effectively.
+    </p>
+    <h2>
+     5. Benefits of Nasya:
+    </h2>
+    <p>
+     Nasya is believed to offer a range of benefits, including:
+    </p>
+    <ul>
+     <li>
+      Clearing Sinuses: Nasya helps to clear the nasal passages and sinuses, promoting better breathing and reducing congestion.
+     </li>
+     <li>
+      Relieving Headaches: It can alleviate headaches, especially those caused by congestion or sinus issues.
+     </li>
+     <li>
+      Improving Mental Clarity: Nasya is thought to support mental clarity, focus, and concentration.
+     </li>
+     <li>
+      Balancing Doshas: When administered correctly, Nasya can help balance the doshas (Vata, Pitta, Kapha) and address their imbalances.
+     </li>
+     <li>
+      Promoting Hair Health: Some Nasya oils are designed to nourish the hair and scalp, promoting healthy hair growth.
+     </li>
+    </ul>
+    <h2>
+     6. Duration and Frequency:
+    </h2>
+    <p>
+     The frequency and duration of Nasya treatments depend on the individual's condition and the type of Nasya being used. A qualified Ayurvedic practitioner will provide guidance on the recommended schedule.
+    </p>
+   </div>
+   <div class="sidebar">
+    <h3>
+     Our All Treatment
+    </h3>
+    <ul>
+     <li>
+      <a href="Vamana.html">
+       Vaman
+      </a>
+     </li>
+     <li>
+      <a href="Virechana.html">
+       Virechana
+      </a>
+     </li>
+     <li>
+      <a href="Basti.html">
+       Basti
+      </a>
+     </li>
+     <li>
+      <a href="Nasya.html">
+       Nasya
+      </a>
+     </li>
+     <li>
+      <a href="Shirodhara.html">
+       Shirodhara
+      </a>
+     </li>
+     <li>
+      <a href="Abhyanga.html">
+       Abhyang
+      </a>
+     </li>
+     <li>
+      <a href="Immunity.html">
+       Immunity Boost Up
+      </a>
+     </li>
+     <li>
+      <a href="Gastrointestinal.html">
+       Gastrointestinal
+      </a>
+     </li>
+     <li>
+      <a href="Spine .html">
+       Spine &amp; Joint Care
+      </a>
+     </li>
+     <li>
+      <a href="Diabetes.html">
+       Diabetes Care
+      </a>
+     </li>
+     <li>
+      <a href="Obesity.html">
+       Obesity
+      </a>
+     </li>
+     <li>
+      <a href="skin.html">
+        Skin Care Treatment
+      </a>
+     </li>
+      
+      
+    
+      
+    </ul>
+    <div class="contact-box">
+     <p>
+      Ready to Restore Harmony in Your Mind, Body, and Spirit?
+     </p>
+     <a href="#">
+      Contact Us Now
+     </a>
+    </div>
+    <div class="social-icons">
+     <h3>
+      Follow Us On
+     </h3>
+     <a href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-youtube">
+      </i>
+     </a>
+    </div>
+   </div>
+  </div>
+  <div id="page_7">
+    <div class="page_7">
+
+        <div class="container_7">
+            <div class="section_7">
+             <img alt="Aadhya Ayurveda Panchakarma Hospital logo" height="200" src="./Untitled_design-removebg-preview.png" width="300"/>
+            </div>
+            <div class="section_7">
+             <h2>
+              About Us
+             </h2>
+             <p>
+              Aadhya Ayurveda has gained popularity worldwide as an alternative and complementary system of medicine.
+             </p>
+             <div class="social-icons_7">
+              <a href="#">
+               <i class="fab fa-facebook">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-twitter">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-instagram">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-youtube">
+               </i>
+              </a>
+             </div>
+            </div>
+            <div class="section_7">
+             <h2>
+              Services
+             </h2>
+             <ul>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Panchkarma.HTML">
+               Panchkarma
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Vamana.html">
+               Vaman
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Virechana.html">
+               Virechna
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Basti.html">
+               Basti
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Nasya.html">
+               Nasya
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Shirodhara.html">
+               Shirodhara
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Abhyanga.html">
+               Abhyanga
+               </a>
+              </li>
+             </ul>
+            </div>
+            <div class="section_7">
+             <h2>
+              Information
+             </h2>
+             <p>
+              <i class="fas fa-phone">
+              </i>
+              Phone
+              <br/>
+              +919887750730
+             </p>
+             <p>
+              <i class="fas fa-envelope">
+              </i>
+              Email
+              <br/>
+              subhashsingh@gmail.com
+             </p>
+             <p>
+              <i class="fas fa-map-marker-alt">
+              </i>
+              Address
+              <br/>
+              4,Khandelwal Ayurveda Food Extn, Agra Road, jaipur-302031
+             </p>
+            </div>
+           </div>
+           <div class="footer_7">
+            <p>
+             Copyright © 2024
+             <a href="#">
+              Aadhya Ayurveda
+             </a>
+             . All rights reserved | Design by
+             <a href="#">
+              made by subhash singh
+             </a>
+             .
+            </p>
+           
+         
+
+    </div>
+ 
+</div>
+ </body>
+</html>

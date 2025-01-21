@@ -1,0 +1,638 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   About Us
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;family=Great+Vibes&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+           
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+
+
+        .header_1 {
+            height: 80px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+     
+}
+
+.nav_1 {
+     
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+}
+
+.nav_1 li {
+    margin-right: 20px;
+}
+
+.nav_1 a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #060606;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav_1 a:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.nav_1 a.active {
+    background-color: #007BFF;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background: url(./chatgpt.webp) no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .breadcrumb {
+            position: absolute;
+            bottom: 20px;
+            color: #f39c12;
+        }
+        .breadcrumb a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        .content_1 {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content_1 img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .content_1 .text {
+            flex: 1;
+            min-width: 300px;
+        }
+        .content_1 .text h2 {
+            color: #1abc9c;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .content_1 .text h3 {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+        .content_1 .text p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        .content_1 .text .quote {
+            font-style: italic;
+            color: #e74c3c;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header div {
+            text-align: center;
+        }
+        .header div h1 {
+            margin: 0;
+            font-size: 48px;
+            color: #000;
+        }
+        .header div h1 span {
+            color: #e07a5f;
+            font-size: 24px;
+        }
+        .header div p {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            background-color: #e0e0e0;
+        }
+        .content .text {
+            width: 60%;
+        }
+        .content .text h2 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 36px;
+            color: #00796b;
+        }
+        .content .text h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        .content .text p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+        }
+        .content .text ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content .text ul li {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .content .text ul li i {
+            color: #e07a5f;
+            margin-right: 10px;
+        }
+        .content .image {
+            width: 50%;
+            height: 50%;
+            margin-top: 180px;
+             
+        }
+        .content .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .content .services {
+            width: 35%;
+            margin-top: 20px;
+        }
+        .content .services p {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        #page_7{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(62, 195, 200);
+    
+}
+
+.container_7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.section_7{
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+.section_7 img {
+    max-width: 100%;
+    height: auto;
+}
+.section_7 h2 {
+    background-color: #f28b82;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.section_7 p, .section_7 ul, .section_7 li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section_7 ul {
+    padding-left: 20px;
+}
+.section_7 ul li {
+    margin: 5px 0;
+}
+.section_7 ul li i {
+    margin-right: 10px;
+}
+.social-icons_7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icons_7 a {
+    color: #0d0d0d;
+    margin: 0 5px;
+    font-size: 20px;
+}
+.footer_7 {
+    text-align: center;
+    padding: 5px;
+    background-color: #003333;
+    color: #ffffff;
+}
+.footer_7 a {
+    color: #f28b82;
+    text-decoration: none;
+}
+
+
+
+
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .content .text, .content .image, .content .services {
+                width: 100%;
+            }
+            .content .image {
+                margin-top: 20px;
+            }
+        }
+  </style>
+ </head>
+ <body>
+
+    
+    <div id="page_1">
+        <div class="page_1">
+                 
+                <div class="header_1">
+                    <div class="logo">
+                        <img src="./Untitled_design-removebg-preview.png" alt="Logo">
+                         
+                    </div>
+                    
+                    <nav>
+                        <ul class="nav_1">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Aboutus.html">About</a></li>
+                            <li><a href="Panchkarma.HTML">Panchkarma termtments</a></li>
+                            <li><a href="BLOG.HTML">Blog</a></li>
+                            <li><a href="#page_7">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+  <div class="hero">
+ 
+  </div>
+  <div class="content_1">
+   <img alt="Dr. Jigar Thakkar sitting at his desk" height="400" src="https://storage.googleapis.com/a1aa/image/p1garogwICZJIdXSUyoZAeSYf6b91YJgWXfKBMIgv1h02ftPB.jpg" width="400"/>
+   <div class="text">
+    <h2>
+     About Aadhya Ayurveda
+    </h2>
+    <h3>
+     Totally Effective Approach for A Better Life
+    </h3>
+    <p class="quote">
+     “Nurturing Balance, Inspiring Vitality: Your Ayurvedic Journey Starts Here”
+    </p>
+    <p>
+     Key principles of Ayurveda revolve around the idea that health and well-being depend on a delicate balance between the body, mind, and spirit. It views each person as a unique individual with a distinct constitution, known as the dosha, which is determined by the three fundamental energies or forces: Vata (air and space), Pitta (fire and water), and Kapha (earth and water).
+    </p>
+   </div>
+  </div>
+
+  <div class="header">
+    <div>
+     <h1>
+      10
+      <span>
+       th
+      </span>
+     </h1>
+     <p>
+      Experience
+     </p>
+    </div>
+    <div>
+     <h1>
+      1000
+      <span>
+       +
+      </span>
+     </h1>
+     <p>
+      Happy Patients
+     </p>
+    </div>
+    <div>
+     <h1>
+      100
+      <span>
+       %
+      </span>
+     </h1>
+     <p>
+      Material Purity
+     </p>
+    </div>
+   </div>
+   <div class="content">
+    <div class="text">
+     <h2>
+      Why Choose Us
+     </h2>
+     <h1>
+      Solve Your Problem with The Power of Nature
+     </h1>
+     <p>
+      Aadhya Ayurveda has gained popularity worldwide as an alternative and complementary system of medicine. It is important to note that Ayurvedic treatments should be administered by qualified and experienced practitioners who have a deep understanding of the principles and methods.
+     </p>
+     <ul>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Authentic Ayurvedic Tradition
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Qualified and Experienced Practitioners
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Ongoing Education and Support
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Comprehensive Wellness Approach
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Emphasis on Prevention
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Natural and Holistic Healing
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Positive Testimonials and Results
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Compassionate and Supportive
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Personalized Treatment Plans
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Integration of Modern Science
+      </li>
+     </ul>
+    </div>
+    <div class="image">
+     <img alt="A person receiving a relaxing Ayurvedic massage with a towel wrapped around their head" height="400" src="https://storage.googleapis.com/a1aa/image/ctlTzAAo67YYOxR8hvmICBdl74N9bt6dwe1XDUgBeYgeBA3nA.jpg" width="600"/>
+    </div>
+    
+   </div>
+
+   <div id="page_7">
+    <div class="page_7">
+
+        <div class="container_7">
+            <div class="section_7">
+             <img alt="Aadhya Ayurveda Panchakarma Hospital logo" height="200" src="./Untitled_design-removebg-preview.png" width="300"/>
+            </div>
+            <div class="section_7">
+             <h2>
+              About Us
+             </h2>
+             <p>
+              Aadhya Ayurveda has gained popularity worldwide as an alternative and complementary system of medicine.
+             </p>
+             <div class="social-icons_7">
+              <a href="#">
+               <i class="fab fa-facebook">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-twitter">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-instagram">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-youtube">
+               </i>
+              </a>
+             </div>
+            </div>
+            <div class="section_7">
+             <h2>
+              Services
+             </h2>
+             <ul>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Panchkarma.HTML">
+               Panchkarma
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Vamana.html">
+               Vaman
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Virechana.html">
+               Virechna
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Basti.html">
+               Basti
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Nasya.html">
+               Nasya
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Shirodhara.html">
+               Shirodhara
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Abhyanga.html">
+               Abhyanga
+               </a>
+              </li>
+             </ul>
+            </div>
+            <div class="section_7">
+             <h2>
+              Information
+             </h2>
+             <p>
+              <i class="fas fa-phone">
+              </i>
+              Phone
+              <br/>
+              +919887750730
+             </p>
+             <p>
+              <i class="fas fa-envelope">
+              </i>
+              Email
+              <br/>
+              subhashsingh@gmail.com
+             </p>
+             <p>
+              <i class="fas fa-map-marker-alt">
+              </i>
+              Address
+              <br/>
+              4,Khandelwal Ayurveda Food Extn, Agra Road, jaipur-302031
+             </p>
+            </div>
+           </div>
+           <div class="footer_7">
+            <p>
+             Copyright © 2024
+             <a href="#">
+              Aadhya Ayurveda
+             </a>
+             . All rights reserved | Design by
+             <a href="#">
+              made by subhash singh
+             </a>
+             .
+            </p>
+           
+         
+
+    </div>
+ 
+</div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+ <head>
+  <title>
+   Aadhya Ayurveda
+  </title>
+ 
+  <style>
+  
+      
+  </style>
+ </head>
+ <body>
+ 
+ </body>
+</html>

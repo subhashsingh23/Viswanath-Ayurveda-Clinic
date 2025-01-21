@@ -1,0 +1,892 @@
+<html>
+ <head>
+  <title>
+   Basti Treatment
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+             font-family: 'Roboto', sans-serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f5f5f5;
+         }
+         .container {
+             display: flex;
+             flex-wrap: wrap;
+             padding: 20px;
+         }
+         .content {
+             flex: 1;
+             min-width: 300px;
+             max-width: 800px;
+             padding: 20px;
+             background-color: #fff;
+             margin-right: 20px;
+         }
+         .sidebar {
+             width: 300px;
+             min-width: 300px;
+             background-color: #007b7f;
+             color: #fff;
+             padding: 20px;
+         }
+         h1 {
+             font-size: 24px;
+             color: #333;
+         }
+         p {
+             font-size: 16px;
+             color: #666;
+             line-height: 1.6;
+         }
+         ul {
+             list-style-type: disc;
+             padding-left: 20px;
+         }
+         ul li {
+             margin-bottom: 10px;
+         }
+         .sidebar h2 {
+             font-size: 20px;
+             margin-bottom: 20px;
+         }
+         .sidebar ul {
+             list-style-type: none;
+             padding: 0;
+         }
+         .sidebar ul li {
+             margin-bottom: 10px;
+         }
+         .sidebar ul li a {
+             color: #fff;
+             text-decoration: none;
+             display: block;
+             padding: 10px;
+             background-color: #009688;
+             border-radius: 5px;
+         }
+         .sidebar ul li a:hover {
+             background-color: #00796b;
+         }
+         .sidebar .contact-box {
+             background-color: #fff;
+             color: #333;
+             padding: 20px;
+             margin-top: 20px;
+             text-align: center;
+         }
+         .sidebar .contact-box img {
+             max-width: 100%;
+             border-radius: 5px;
+         }
+         .sidebar .social-icons {
+             display: flex;
+             justify-content: center;
+             margin-top: 20px;
+         }
+         .sidebar .social-icons a {
+             color: #fff;
+             margin: 0 10px;
+             font-size: 20px;
+         }
+         .image-container {
+             text-align: center;
+             margin: 20px 0;
+         }
+         .image-container img {
+             max-width: 100%;
+             border-radius: 5px;
+         }
+ 
+       
+         #page_1 {
+     height: 100%;
+     width: 100%;
+     background: url(./IMG_1.jpeg) no-repeat center center fixed;
+     background-size: cover;
+ }
+ 
+ .header {
+     height: 80px;
+     background-color:white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed; 
+     left: 0;
+     right: 0;
+     z-index: 1;
+ }
+ 
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .logo img {
+     height: 100px;
+      
+ }
+ 
+ .nav {
+     display: flex;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     top: 10px;
+ }
+ 
+ .nav li {
+     margin-right: 20px;
+ }
+ 
+ .nav a {
+     text-decoration: none;
+     font-size: 24px;
+     color: #060606;
+     padding: 10px 15px;
+     transition: background-color 0.3s, transform 0.3s;
+     border-radius: 5px;
+     font-weight: 500;
+     position: relative;
+ }
+ 
+ .nav a:hover {
+     background-color: green;
+     transform: scale(1.1);
+ }
+ 
+ .nav a.active {
+     background-color: #007BFF;
+     color: #fff;
+     transform: scale(1.1);
+ }
+ 
+ .hero {
+    position: relative;
+    top: 150PX;
+    
+     padding: 100px 0;
+     color: #121111;
+     text-align: center;
+ }
+ 
+ 
+ 
+ .hero h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .hero p {
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ 
+ .hero img {
+     width: 100%;
+     height: 500px;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+ 
+ .hero .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ .hero .container h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .hero .container p {
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ 
+ 
+ 
+ #page_7{
+     height: 50%;
+     width: 100%;
+     background-color: rgb(62, 195, 200);
+     
+ }
+ 
+ .container_7 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 20px;
+ }
+ .section_7{
+     flex: 1;
+     min-width: 250px;
+     margin: 10px;
+ }
+ .section_7 img {
+     max-width: 100%;
+     height: auto;
+ }
+ .section_7 h2 {
+     background-color: #f28b82;
+     color: #ffffff;
+     padding: 10px;
+     margin: 0 0 10px 0;
+ }
+ .section_7 p, .section_7 ul, .section_7 li {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ .section_7 ul {
+     padding-left: 20px;
+ }
+ .section_7 ul li {
+     margin: 5px 0;
+ }
+ .section_7 ul li i {
+     margin-right: 10px;
+ }
+ .social-icons_7 {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+ }
+ .social-icons_7 a {
+     color: #0d0d0d;
+     margin: 0 5px;
+     font-size: 20px;
+ }
+ .footer_7 {
+     text-align: center;
+     padding: 10px;
+     background-color: #003333;
+     color: #ffffff;
+ }
+ .footer_7 a {
+     color: #f28b82;
+     text-decoration: none;
+ }
+ 
+   </style> <style>
+    body {
+             font-family: 'Roboto', sans-serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f5f5f5;
+         }
+         .container {
+             display: flex;
+             flex-wrap: wrap;
+             padding: 20px;
+         }
+         .content {
+             flex: 1;
+             min-width: 1000px;
+             max-width: 800px;
+             padding: 20px;
+             background-color: #fff;
+             margin-right: 20px;
+         }
+         .sidebar {
+             width: 350px;
+             min-width: 300px;
+             background-color: #007b7f;
+             color: #fff;
+             padding: 20px;
+         }
+         h1 {
+             font-size: 24px;
+             color: #333;
+         }
+         p {
+             font-size: 16px;
+             color: #666;
+             line-height: 1.6;
+         }
+         ul {
+             list-style-type: disc;
+             padding-left: 20px;
+         }
+         ul li {
+             margin-bottom: 10px;
+         }
+         .sidebar h2 {
+             font-size: 20px;
+             margin-bottom: 20px;
+         }
+         .sidebar ul {
+             list-style-type: none;
+             padding: 0;
+         }
+         .sidebar ul li {
+             margin-bottom: 10px;
+         }
+         .sidebar ul li a {
+             color: #fff;
+             text-decoration: none;
+             display: block;
+             padding: 10px;
+             background-color: #009688;
+             border-radius: 5px;
+         }
+         .sidebar ul li a:hover {
+             background-color: #00796b;
+         }
+         .sidebar .contact-box {
+             background-color: #fff;
+             color: #333;
+             padding: 20px;
+             margin-top: 20px;
+             text-align: center;
+         }
+         .sidebar .contact-box img {
+             max-width: 100%;
+             border-radius: 5px;
+         }
+         .sidebar .social-icons {
+             display: flex;
+             justify-content: center;
+             margin-top: 20px;
+         }
+         .sidebar .social-icons a {
+             color: #fff;
+             margin: 0 10px;
+             font-size: 20px;
+         }
+         .image-container {
+            width: 300px;
+             text-align: center;
+             margin: 20px 0;
+         }
+         .image-container img {
+             max-width: 100%;
+             border-radius: 15px;
+         }
+ 
+       
+         #page_1 {
+     height: 100%;
+     width: 100%;
+     background: url(./IMG_1.jpeg) no-repeat center center fixed;
+     background-size: cover;
+ }
+ 
+ .header {
+     height: 80px;
+     background-color:white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed; 
+     left: 0;
+     right: 0;
+     z-index: 1;
+ }
+ 
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .logo img {
+     height: 100px;
+      
+ }
+ 
+ .nav {
+     display: flex;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     top: 10px;
+ }
+ 
+ .nav li {
+     margin-right: 20px;
+ }
+ 
+ .nav a {
+     text-decoration: none;
+     font-size: 24px;
+     color: #060606;
+     padding: 10px 15px;
+     transition: background-color 0.3s, transform 0.3s;
+     border-radius: 5px;
+     font-weight: 500;
+     position: relative;
+ }
+ 
+ .nav a:hover {
+     background-color: green;
+     transform: scale(1.1);
+ }
+ 
+ .nav a.active {
+     background-color: #007BFF;
+     color: #fff;
+     transform: scale(1.1);
+ }
+ 
+ .hero {
+    position: relative;
+    top: 150PX;
+    
+     padding: 100px 0;
+     color: #121111;
+     text-align: center;
+ }
+ 
+ 
+ 
+ .hero h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .hero p {
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ 
+ .hero img {
+     width: 100%;
+     height: 500px;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+ 
+ .hero .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ .hero .container h1 {
+     font-size: 48px;
+     margin-bottom: 20px;
+ }
+ 
+ .hero .container p {
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ 
+ 
+ 
+ #page_7{
+     height: 50%;
+     width: 100%;
+     background-color: rgb(62, 195, 200);
+     
+ }
+ 
+ .container_7 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 20px;
+ }
+ .section_7{
+     flex: 1;
+     min-width: 250px;
+     margin: 10px;
+ }
+ .section_7 img {
+     max-width: 100%;
+     height: auto;
+ }
+ .section_7 h2 {
+     background-color: #f28b82;
+     color: #ffffff;
+     padding: 10px;
+     margin: 0 0 10px 0;
+ }
+ .section_7 p, .section_7 ul, .section_7 li {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ .section_7 ul {
+     padding-left: 20px;
+ }
+ .section_7 ul li {
+     margin: 5px 0;
+ }
+ .section_7 ul li i {
+     margin-right: 10px;
+ }
+ .social-icons_7 {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+ }
+ .social-icons_7 a {
+     color: #0d0d0d;
+     margin: 0 5px;
+     font-size: 20px;
+ }
+ .footer_7 {
+     text-align: center;
+     padding: 10px;
+     background-color: #003333;
+     color: #ffffff;
+ }
+ .footer_7 a {
+     color: #f28b82;
+     text-decoration: none;
+ }
+ 
+   </style>
+ </head>
+ <body>
+
+    <div id="page_1">
+        <div class="page_1">
+                 
+                <div class="header">
+                    <div class="logo">
+                        <img src="./Untitled_design-removebg-preview.png" alt="Logo">
+                         
+                    </div>
+                    
+                    <nav>
+                        <ul_1 class="nav">
+                            <li><a href="#page_1">Home</a></li>
+                            <li><a href="Aboutus.html">About</a></li>
+                            <li><a href="Panchkarma.HTML">Panchkarma termtments</a></li>
+                            <li><a href="BLOG.HTML">Blog</a></li>
+                            <li><a href="#page_7">Contact</a></li>
+                        </ul_1>
+                    </nav>
+                </div>
+                <div class="hero">
+                    <div class="container">
+                        <h1>Welcome to Viswanath Ayurveda Clinic</h1>
+                        <p> your trusted destination for holistic healing, natural wellness, and a healthier, balanced life."</p>
+                     
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+  <div class="container">
+   <div class="content">
+    <h1>
+     Basti Treatment
+    </h1>
+    <p>
+     Basti Ayurveda Process: The panchakarma procedures of Ayurveda are peculiar in nature.
+    </p>
+    <div class="images">
+     <img alt="Person receiving Basti treatment with herbal oils" height="200" src="https://storage.googleapis.com/a1aa/image/FX48e4bi2y18MCp4pozptcppcfFNch7ZyLtWHM1sV3tufJePB.jpg" width="300"/>
+     <img alt="Ayurvedic practitioner preparing Basti treatment" height="200" src="https://storage.googleapis.com/a1aa/image/g84xSXSlYL6WBxCidRkvB0FDnTeSdBKtGmdJ7cxfeJIfen4fE.jpg" width="300"/>
+    </div>
+    <p>
+     Basti, also known as Vasti, is an important therapeutic procedure in Ayurveda. Ayurveda, a traditional system of medicine that originated in India, includes Basti as one of its five purification procedures, collectively known as Panchakarma. The term 'Basti' refers to the administration of medicated substances (such as herbal oils, decoctions, or other therapeutic liquids) into the rectum. This procedure is believed to balance the doshas (the fundamental energies in Ayurveda), particularly Vata dosha, and is used to treat various ailments and disorders.
+    </p>
+    <h2>
+     There are two main types of Basti:
+    </h2>
+    <h3>
+     1. Niruha Basti (Decoction Enema):
+    </h3>
+    <p>
+     This type of Basti is a specific herbal decoction mixed with other ingredients like honey, salt, oils, and herbal powders. The decoction is administered into the rectum. Niruha Basti is used for cleansing and detoxification purposes.
+    </p>
+    <h3>
+     2. Anuvasana Basti (Oil Enema):
+    </h3>
+    <p>
+     This type of Basti involves the administration of medicated oils into the rectum. This type of Basti is primarily used for nourishing and lubricating the tissues.
+    </p>
+    <h2>
+     The Process of Basti:
+    </h2>
+    <h3>
+     1. Preparation:
+    </h3>
+    <p>
+     Before administering Basti, the patient undergoes a preparatory phase that includes light dietary restrictions, herbal supplements, and therapies to prepare the body for the procedure.
+    </p>
+    <h3>
+     2. Administration:
+    </h3>
+    <p>
+     On the day of the Basti treatment, the patient should be empty. The medicated substance is carefully administered into the rectum using a specialized apparatus. The patient is advised to retain the substance for a specific duration, allowing the therapeutic effects to take place.
+    </p>
+    <h3>
+     3. Post-Treatment Care:
+    </h3>
+    <p>
+     After the Basti procedure, the patient is advised to rest and avoid strenuous activities. The specific post-treatment care regimen varies based on the type of Basti administered and the individual's condition.
+    </p>
+    <h2>
+     Benefits of Basti:
+    </h2>
+    <ul class="normal-text">
+     <li>
+      Balances Vata dosha and alleviates related disorders.
+     </li>
+     <li>
+      Helps in detoxification and cleansing of the colon.
+     </li>
+     <li>
+      Improves digestion and absorption of nutrients.
+     </li>
+     <li>
+      Relieves constipation, bloating, and other digestive issues.
+     </li>
+     <li>
+      Supports joint health and relieves pain and inflammation.
+     </li>
+     <li>
+      Enhances overall vitality and energy levels.
+     </li>
+     <li>
+      Promotes mental clarity and reduces stress.
+     </li>
+     <li>
+      Supports the elimination of toxins (ama) from the body.
+     </li>
+    </ul>
+   </div>
+   <div class="sidebar">
+    <h2>
+     Our All Treatment
+    </h2>
+    <ul>
+        <li>
+         <a href="Vamana.html">
+          Vaman
+         </a>
+        </li>
+        <li>
+         <a href="Virechana.html">
+          Virechan
+         </a>
+        </li>
+        <li>
+         <a href="Basti.html">
+          Basti
+         </a>
+        </li>
+        <li>
+         <a href="Nasya.html">
+          Nasya
+         </a>
+        </li>
+        <li>
+         <a href="Shirodhara.html">
+          Shirodhara
+         </a>
+        </li>
+        <li>
+         <a href="Immunity.html">
+          Immunity Boost Up
+         </a>
+        </li>
+        <li>
+         <a href="Gastrointestinal.html">
+          Gastrointestinal
+         </a>
+        </li>
+        <li>
+         <a href="Spine .html">
+          Spine &amp; Joint Care
+         </a>
+        </li>
+        <li>
+         <a href="Diabetes.html">
+          Diabetes Care
+         </a>
+        </li>
+        <li>
+         <a href="Obesity.html">
+          Obesity
+         </a>
+        </li>
+        <li>
+         <a href="skin.html">
+           Skin Care Treatment
+         </a>
+        </li>
+         
+         
+         
+       </ul>
+    <div class="contact-box">
+     <img alt="Restore Harmony in Your Mind, Body, and Spirit" height="200" src="https://storage.googleapis.com/a1aa/image/RI0oW9hOfK33UaTlrKWYNUnzqfRhx8eyfssHqWOMRdoiKT8PB.jpg" width="300"/>
+     <p>
+      Ready to Restore Harmony in Your Mind, Body, and Spirit?
+     </p>
+     <button>
+      Contact Us Now
+     </button>
+    </div>
+    <div class="social-icons">
+     <a href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+   </div>
+  </div>
+  <div id="page_7">
+    <div class="page_7">
+
+        <div class="container_7">
+            <div class="section_7">
+             <img alt="Aadhya Ayurveda Panchakarma Hospital logo" height="200" src="./Untitled_design-removebg-preview.png" width="300"/>
+            </div>
+            <div class="section_7">
+             <h2>
+              About Us
+             </h2>
+             <p>
+              Aadhya Ayurveda has gained popularity worldwide as an alternative and complementary system of medicine.
+             </p>
+             <div class="social-icons_7">
+              <a href="#">
+               <i class="fab fa-facebook">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-twitter">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-instagram">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-youtube">
+               </i>
+              </a>
+             </div>
+            </div>
+            <div class="section_7">
+             <h2>
+              Services
+             </h2>
+             <ul>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Panchkarma.HTML">
+               Panchkarma
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Vamana.html">
+               Vaman
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Virechana.html">
+               Virechna
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Basti.html">
+               Basti
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Nasya.html">
+               Nasya
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Shirodhara.html">
+               Shirodhara
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Abhyanga.html">
+               Abhyanga
+               </a>
+              </li>
+             </ul>
+            </div>
+            <div class="section_7">
+             <h2>
+              Information
+             </h2>
+             <p>
+              <i class="fas fa-phone">
+              </i>
+              Phone
+              <br/>
+              +919887750730
+             </p>
+             <p>
+              <i class="fas fa-envelope">
+              </i>
+              Email
+              <br/>
+              subhashsingh@gmail.com
+             </p>
+             <p>
+              <i class="fas fa-map-marker-alt">
+              </i>
+              Address
+              <br/>
+              4,Khandelwal Ayurveda Food Extn, Agra Road, jaipur-302031
+             </p>
+            </div>
+           </div>
+           <div class="footer_7">
+            <p>
+             Copyright © 2024
+             <a href="#">
+              Aadhya Ayurveda
+             </a>
+             . All rights reserved | Design by
+             <a href="#">
+              made by subhash singh
+             </a>
+             .
+            </p>
+           
+         
+
+    </div>
+ 
+</div>
+
+ </body>
+</html>

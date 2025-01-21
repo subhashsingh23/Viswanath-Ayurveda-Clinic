@@ -1,0 +1,609 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Spine &amp; Joint Care Treatment
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+            background-color: #fff;
+            margin-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #008080;
+            color: #fff;
+            padding: 20px;
+        }
+        .sidebar h3 {
+            background-color: #ff7f50;
+            padding: 10px;
+            margin: 0 0 20px 0;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #fff;
+        }
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .sidebar .contact-box {
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .sidebar .contact-box a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ff7f50;
+            color: #fff;
+            text-decoration: none;
+        }
+        .sidebar .social-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .sidebar .social-box i {
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        h1 {
+            color: #ff7f50;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        ul {
+            color: #666;
+            line-height: 1.6;
+        }
+        .images {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .images img {
+            width: 48%;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .content {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            .images {
+                flex-direction: column;
+            }
+            .images img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+                      
+#page_1 {
+    height: 100%;
+    width: 100%;
+    background: url(./IMG_1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    height: 80px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+     
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #060606;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav a:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.nav a.active {
+    background-color: #007BFF;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.hero {
+   position: relative;
+   top: 150PX;
+   
+    padding: 100px 0;
+    color: #121111;
+    text-align: center;
+}
+
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero .container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .container p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+#page_7{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(62, 195, 200);
+    
+}
+
+.container_7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.section_7{
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+.section_7 img {
+    max-width: 100%;
+    height: auto;
+}
+.section_7 h2 {
+    background-color: #f28b82;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.section_7 p, .section_7 ul, .section_7 li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section_7 ul {
+    padding-left: 20px;
+}
+.section_7 ul li {
+    margin: 5px 0;
+}
+.section_7 ul li i {
+    margin-right: 10px;
+}
+.social-icons_7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icons_7 a {
+    color: #0d0d0d;
+    margin: 0 5px;
+    font-size: 20px;
+}
+.footer_7 {
+    text-align: center;
+    padding: 10px;
+    background-color: #003333;
+    color: #ffffff;
+}
+.footer_7 a {
+    color: #f28b82;
+    text-decoration: none;
+}
+  </style>
+ </head>
+ <body>
+    <div id="page_1">
+        <div class="page_1">
+                 
+                <div class="header">
+                    <div class="logo">
+                        <img src="./Untitled_design-removebg-preview.png" alt="Logo">
+                         
+                    </div>
+                    
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="#page_1">Home</a></li>
+                            <li><a href="Aboutus.html">About</a></li>
+                            <li><a href="Panchkarma.HTML">Panchkarma termtments</a></li>
+                            <li><a href="BLOG.HTML">Blog</a></li>
+                            <li><a href="#page_7">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hero">
+                    <div class="container">
+                        <h1>Welcome to Viswanath Ayurveda Clinic</h1>
+                        <p> your trusted destination for holistic healing, natural wellness, and a healthier, balanced life."</p>
+                     
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+  <div class="container">
+   <div class="content">
+    <h1>
+     Spine &amp; Joint Care Treatment
+    </h1>
+    <div class="images">
+     <img alt="Image of spine care treatment" height="400" src="https://storage.googleapis.com/a1aa/image/gzjkh6mmbdIeHyaurbumowFfipujtjiOftoSfyoNptfAbM5fE.jpg" width="600"/>
+     <img alt="Image of joint care treatment" height="400" src="https://storage.googleapis.com/a1aa/image/uA9JF4zxsgYRGVhlnTDGPJYpf3jX6bR5qhMtDzLMS0ZrxkfTA.jpg" width="600"/>
+    </div>
+    <h2>
+     1. Spine Care:
+    </h2>
+    <p>
+     Back pain can be caused by anything, ranging from a minor muscle pull to a significant disc prolapse. Our Panchakarma therapies, Yoga therapies, Ayurvedic medications, herbal combinations, and various exercises are all part of our Ayurvedic spine and joint care program.
+    </p>
+    <p>
+     The most typical illnesses include:
+    </p>
+    <ul>
+     <li>
+      Spinal Slip
+     </li>
+     <li>
+      Sciatica
+     </li>
+     <li>
+      Exploding Disc
+     </li>
+     <li>
+      Osteoarthritis
+     </li>
+     <li>
+      Prolapsed Disc
+     </li>
+     <li>
+      Peri-arthritis with vertigo
+     </li>
+     <li>
+      Spondylitis with Ankylosing
+     </li>
+    </ul>
+    <p>
+     Since the first day of treatment, the results of our pain management sessions have significantly improved. For the maintenance of the spine and joints, we offer many forms of sweda (such as pinda sweda, patrapottali pinda sweda, avagaha sweda, etc.), churna pinda sweda, kashayaseka, kativasti, janubasti, and manyabasti.
+    </p>
+    <h2>
+     2. Joint Care:
+    </h2>
+    <p>
+     Again, wearing out of the joint, certain diseases like rheumatoid gout, raised levels of uric acid, or any other unspecified changes result in joint difficulties. Our joint care programme comprises lifestyle counselling, Panchakarma, massage therapies using a variety of medicated herbal oils, and steam therapy using a variety of herbal boluses. It also involves specialised yoga therapy created by our professionals.
+    </p>
+    <p>
+     Diseases that we treat:
+    </p>
+    <ul>
+     <li>
+      Osteoarthritis Arthritis
+     </li>
+     <li>
+      Inflammation of tendinomus sprains
+     </li>
+     <li>
+      Many types of diseases
+     </li>
+    </ul>
+    <p>
+     For the majority of musculoskeletal joint issues and pain, we strive to offer the best relief. We have a knowledgeable and experienced team of experts in joint and spinal treatment.
+    </p>
+   </div>
+   <div class="sidebar">
+    <h3>
+     ~ Our All Treatment ~
+    </h3>
+    <ul>
+        <li>
+         <a href="Vamana.html">
+          Vaman
+         </a>
+        </li>
+        <li>
+         <a href="Virechana.html">
+          Virechan
+         </a>
+        </li>
+        <li>
+         <a href="Basti.html">
+          Basti
+         </a>
+        </li>
+        <li>
+         <a href="Nasya.html">
+          Nasya
+         </a>
+        </li>
+        <li>
+         <a href="Shirodhara.html">
+          Shirodhara
+         </a>
+        </li>
+        <li>
+         <a href="Immunity.html">
+          Immunity Boost Up
+         </a>
+        </li>
+        <li>
+         <a href="Gastrointestinal.html">
+          Gastrointestinal
+         </a>
+        </li>
+        <li>
+         <a href="Spine .html">
+          Spine &amp; Joint Care
+         </a>
+        </li>
+        <li>
+         <a href="Diabetes.html">
+          Diabetes Care
+         </a>
+        </li>
+        <li>
+         <a href="Obesity.html">
+          Obesity
+         </a>
+        </li>
+        <li>
+         <a href="skin.html">
+           Skin Care Treatment
+         </a>
+        </li>
+         
+         
+         
+       </ul>
+    <div class="contact-box">
+     <p>
+      Ready to Restore Harmony in Your Mind, Body, and Spirit?
+     </p>
+     <a href="#">
+      Contact Us Now
+     </a>
+    </div>
+    <div class="social-box">
+     <h3>
+      Follow Us On
+     </h3>
+     <i class="fab fa-facebook-square">
+     </i>
+     <i class="fab fa-twitter-square">
+     </i>
+     <i class="fab fa-instagram-square">
+     </i>
+     <i class="fab fa-linkedin">
+     </i>
+    </div>
+   </div>
+  </div>
+  <div id="page_7">
+    <div class="page_7">
+
+        <div class="container_7">
+            <div class="section_7">
+             <img alt="Aadhya Ayurveda Panchakarma Hospital logo" height="200" src="./Untitled_design-removebg-preview.png" width="300"/>
+            </div>
+            <div class="section_7">
+             <h2>
+              About Us
+             </h2>
+             <p>
+              Aadhya Ayurveda has gained popularity worldwide as an alternative and complementary system of medicine.
+             </p>
+             <div class="social-icons_7">
+              <a href="#">
+               <i class="fab fa-facebook">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-twitter">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-instagram">
+               </i>
+              </a>
+              <a href="#">
+               <i class="fab fa-youtube">
+               </i>
+              </a>
+             </div>
+            </div>
+            <div class="section_7">
+             <h2>
+              Services
+             </h2>
+             <ul>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Panchkarma.HTML">
+               Panchkarma
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Vamana.html">
+               Vaman
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Virechana.html">
+               Virechna
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Basti.html">
+               Basti
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Nasya.html">
+               Nasya
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Shirodhara.html">
+               Shirodhara
+               </a>
+              </li>
+              <li>
+               <i class="fas fa-chevron-right">
+               </i>
+               <a href="Abhyanga.html">
+               Abhyanga
+               </a>
+              </li>
+             </ul>
+            </div>
+            <div class="section_7">
+             <h2>
+              Information
+             </h2>
+             <p>
+              <i class="fas fa-phone">
+              </i>
+              Phone
+              <br/>
+              +919887750730
+             </p>
+             <p>
+              <i class="fas fa-envelope">
+              </i>
+              Email
+              <br/>
+              subhashsingh@gmail.com
+             </p>
+             <p>
+              <i class="fas fa-map-marker-alt">
+              </i>
+              Address
+              <br/>
+              4,Khandelwal Ayurveda Food Extn, Agra Road, jaipur-302031
+             </p>
+            </div>
+           </div>
+           <div class="footer_7">
+            <p>
+             Copyright © 2024
+             <a href="#">
+              Aadhya Ayurveda
+             </a>
+             . All rights reserved | Design by
+             <a href="#">
+              made by subhash singh
+             </a>
+             .
+            </p>
+           
+         
+
+    </div>
+ 
+</div>
+ </body>
+</html>
